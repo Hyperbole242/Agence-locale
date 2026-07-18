@@ -1,4 +1,4 @@
-/* Global */
+/* ====== GLOBAL ====== */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -17,7 +17,7 @@ section {
   padding: 60px 20px;
 }
 
-/* Navbar */
+/* ====== NAVBAR ====== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -46,11 +46,12 @@ section {
   transition: color 0.3s;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links .active {
   color: #e63946;
 }
 
-/* Hero */
+/* ====== HERO ====== */
 .hero {
   height: 80vh;
   display: flex;
@@ -87,7 +88,7 @@ section {
   box-shadow: 0 6px 16px rgba(230,57,70,0.6);
 }
 
-/* Services */
+/* ====== SERVICES ====== */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -115,7 +116,53 @@ section {
   box-shadow: 0 8px 20px rgba(230,57,70,0.4);
 }
 
-/* Témoignages */
+/* ====== ABOUT / TEAM ====== */
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  width: 160px;
+  border-radius: 50%;
+  border: 3px solid #e63946;
+  margin-bottom: 12px;
+}
+
+/* ====== PROJETS ====== */
+.projets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.projet-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #6a0dad;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.projet-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+/* ====== TESTIMONIALS ====== */
 .testimonials {
   background: #1a1a1a;
   padding: 40px 20px;
@@ -139,7 +186,7 @@ section {
   color: #e63946;
 }
 
-/* CTA banner */
+/* ====== CTA BANNER ====== */
 .cta-banner {
   background: #e63946;
   color: #fff;
@@ -152,7 +199,51 @@ section {
   margin-bottom: 20px;
 }
 
-/* Footer */
+/* ====== CONTACT ====== */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  background: rgba(255,255,255,0.08);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #e63946;
+}
+
+.input-group input,
+.input-group textarea {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #f8f9fa;
+  outline: none;
+}
+
+/* ====== MENTIONS LEGALES ====== */
+.mentions {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.mentions h2 {
+  color: #6a0dad;
+  margin-top: 20px;
+}
+
+/* ====== FOOTER ====== */
 footer {
   text-align: center;
   padding: 16px 0;
@@ -165,4 +256,31 @@ footer .social-icons a {
   margin: 0 10px;
   color: #fff;
   font-size: 1.4rem;
-  transition: color 0.
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #0f0f0f;
+  transform: scale(1.2);
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .team {
+    flex-direction: column;
+  }
+
+  .services-grid,
+  .projets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
