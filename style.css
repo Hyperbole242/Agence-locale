@@ -117,3 +117,21 @@ section {
   border-radius: 12px;
   box-shadow: 0 6px 14px rgba(0,0,0,0.25);
 }
+/* Global */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f0f0f; /* noir profond */
+  color: #f8f9fa; /* blanc cassé */
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #e63946; /* rouge vif */
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 60px 20px;
+}
