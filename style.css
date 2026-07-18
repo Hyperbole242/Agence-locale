@@ -209,3 +209,14 @@ footer {
   color: #fff;
   font-size: 0.95rem;
 }
+footer .social-icons a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.4rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #0f0f0f;
+  transform: scale(1.2);
+}
