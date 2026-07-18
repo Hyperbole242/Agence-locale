@@ -83,3 +83,13 @@ section {
 .projet-card:hover {
   transform: scale(1.05);
 }
+.projet-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.projet-info {
+  padding: 16px;
+  text-align: center;
+}
