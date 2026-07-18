@@ -144,4 +144,21 @@ section {
   background: #0f0f0f;
   border-bottom: 2px solid #6a0dad;
 }
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e63946;
+}
 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
