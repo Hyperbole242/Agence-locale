@@ -43,3 +43,19 @@ section {
   text-decoration: none;
   transition: transform 0.3s;
 }
+.cta-btn:hover {
+  transform: scale(1.08);
+}
+
+/* Skills */
+.skill {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.progress {
+  background: rgba(255,255,255,0.4);
+  border-radius: 12px;
+  overflow: hidden;
+  height: 12px;
+}
