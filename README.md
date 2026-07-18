@@ -11,7 +11,7 @@ Objectif : créer une présence en ligne professionnelle et optimisée.
 - `projets.html` → Réalisations
 - `contact.html` → Contact
 - `mentions.html` → Mentions légales
-- `css/style.css` → Feuille de style premium
+- `style.css` → Feuille de style premium
 - `images/` → Dossier pour visuels optimisés
 
 ## 🎨 Palette de couleurs
