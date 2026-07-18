@@ -180,3 +180,19 @@ section {
   font-size: 2.8rem;
   color: #e63946;
 }
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 12px;
+  color: #f8f9fa;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 14px;
+  background: linear-gradient(270deg, #e63946, #6a0dad);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
